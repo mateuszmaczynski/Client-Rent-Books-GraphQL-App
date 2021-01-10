@@ -15,10 +15,10 @@ export default function Book({ book }) {
     >
       <Image boxSize="100px" objectFit="cover" src={cover.url} alt={title} />
       <Flex direction="column" mx="2" justify="center">
-        <Heading as="h3" size="md" color="gray.700">
+        <Heading as="h3" size="xs" color="gray.700">
           {title}
         </Heading>
-        <Heading as="h4" size="sm" color="gray.400">
+        <Heading as="h4" size="xs" color="gray.500" my="1">
           {author.name}
         </Heading>
       </Flex>
